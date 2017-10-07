@@ -1,0 +1,74 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+    color: blue;
+}
+
+.first_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.first_title .second_title {
+  margin: 100px;
+  font-family: Garamond;
+}
+
+.first_title {
+  font-size: 67px;
+  color: white;
+}
+
+.second_title {
+  font-size: 30px;
+  color: white;
+}
+
+#homeBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.background_image {
+  background-image: url("https://www.hdwallpapers.in/walls/lion_colorful_artwork-wide.jpg");
+  //background-image: image_url("generic_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1200px;
+}
+
+footer {
+  background-color: lightgrey;
+  margin-top: 930px;
+  padding: 10px;
+  text-align: center;
+}
+
+.navigation_bar{
+  background-color: rgba(0,0,0, 0.01);
+  position: sticky;
+  top:10px;
+  display:flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.navigation_items {
+    list-style: none;
+    display: flex;
+}
+
+.nav_list_item {
+    margin: 10px;
+    display: flex;
+    align-content: space-between;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mike's Blog</title>
+    
+    <%= stylesheet_link_tag "home", media: "all"%>
+</head>
+  <div class="background_image">
+    
+      <header>
+        <nav class="navigation_bar">
+          <ul class="navigation_items">
+              <li class="nav_list_item"><a href="#about" class="btn btn-info navbar-btn">About</a></li>
+              <li class="nav_list_item"><a href="#contact" class="btn btn-info navbar-btn">Contact</a></li>
+              <li class="nav_list_item"><%= link_to 'Blog', posts_path, class: "btn btn-info navbar-btn" %></li>
+              <!--injecting rails and using bootstrap-->
+          </ul>
+        </nav>
+      </header>
+    <body id="homeBody">
+        <div class="first_section">
+          <h1 class="first_title">mike's musings</h1>
+          <h2 class="second_title">WELCOME TO MY BLOG</h2>
+        </div>
+      <footer>
+        <div class=“copyright”>
+            <p>Copyright (c) 2017 Copyright Michael Semensi All Rights Reserved.</p>
+        </div>
+      </footer>
+    </body>
+  </div> 
+</html>
